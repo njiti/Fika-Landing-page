@@ -2,11 +2,23 @@
     margin: 0;
     padding: 0;
 }
-.header{
-    min-height: 100vh;
+.container{
     width: 100%;
-    background-image: linear-
-    gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5OiCEzu4i7ocveoeoTUIjfHPH6UvHf8aV3w&usqp=CAU);
+    height: 100vh;
+    background-image: url(https://www.bamradionetwork.com/wp-content/uploads/2020/07/Children-Wearing-Masks-in-School.jpg-Bam-Radio-2000-Pixels-900x600.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.header{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
 }
 #map{
     height:500px;
